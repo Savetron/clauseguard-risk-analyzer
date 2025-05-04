@@ -47,7 +47,7 @@ const mockRisks = [
     id: 5, 
     severity: 'low',
     title: 'Governing law ambiguous',
-    description: 'The governing law clause doesn't specify jurisdiction clearly.',
+    description: 'The governing law clause doesn\'t specify jurisdiction clearly.',
     clause: 'Section 14.1'
   }
 ];
