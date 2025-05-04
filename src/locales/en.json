@@ -1,0 +1,194 @@
+
+{
+  "navbar": {
+    "howItWorks": "How It Works",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "login": "Login",
+    "uploadContract": "Upload Contract"
+  },
+  "hero": {
+    "title": "Instant Contract Risk Report.",
+    "subtitle": "Upload any PDF up to 30 pages and get a lawyer-grade risk list in 60 seconds.",
+    "getFree": "Get Free Scan",
+    "seePricing": "See Pricing"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "steps": {
+      "upload": {
+        "title": "Upload",
+        "description": "Upload your contract in PDF format (up to 30 pages)."
+      },
+      "analyze": {
+        "title": "AI Analysis",
+        "description": "Our AI scans for legal risks and potential issues in your contract."
+      },
+      "download": {
+        "title": "Download Report",
+        "description": "Get a comprehensive ZIP file with all identified risks and recommendations."
+      }
+    }
+  },
+  "contracts": {
+    "title": "Supported Contracts",
+    "tabs": {
+      "rental": "Rental",
+      "freelance": "Freelance",
+      "sales": "Sales"
+    },
+    "examples": {
+      "rental": [
+        "Rental term not specified.",
+        "Deposit return conditions missing.",
+        "Maintenance responsibility unclear."
+      ],
+      "freelance": [
+        "Intellectual property rights undefined.",
+        "Payment schedule ambiguous.",
+        "Termination conditions insufficient."
+      ],
+      "sales": [
+        "Warranty terms not specified.",
+        "Delivery timeline unclear.",
+        "Return policy missing."
+      ]
+    }
+  },
+  "testimonials": {
+    "title": "Customer Reviews",
+    "reviews": [
+      {
+        "name": "John D.",
+        "role": "Attorney",
+        "comment": "I use ClauseGuard for routine checks in my office. It saves tremendous time and correctly identifies most risks."
+      },
+      {
+        "name": "Sarah K.",
+        "role": "Business Owner",
+        "comment": "Great tool for checking my supplier contracts. I can be sure I'm not missing any important clauses."
+      },
+      {
+        "name": "Michael P.",
+        "role": "Real Estate Agent",
+        "comment": "Helps us find hidden risks in rental agreements. An extra layer of security for our clients."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Pricing",
+    "currency": "USD",
+    "plans": {
+      "free": {
+        "name": "Free",
+        "price": "0",
+        "description": "For basic checks",
+        "features": [
+          "1 contract scan/day",
+          "10 page limit",
+          "Basic risk analysis"
+        ],
+        "cta": "Start"
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "19.99",
+        "period": "/mo",
+        "description": "For professional use",
+        "features": [
+          "Unlimited scans",
+          "30 page limit",
+          "Detailed risk analysis",
+          "Priority support"
+        ],
+        "cta": "Start"
+      },
+      "once": {
+        "name": "One-time",
+        "price": "9.99",
+        "description": "For single use",
+        "features": [
+          "3 contract scans",
+          "20 page limit",
+          "Standard risk analysis",
+          "Valid for 7 days"
+        ],
+        "cta": "Start"
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "q": "How does ClauseGuard work?",
+        "a": "Our AI algorithms analyze your uploaded contract documents and identify potential risks. The system is trained on thousands of contracts and legal documents."
+      },
+      {
+        "q": "What types of contracts can you analyze?",
+        "a": "We currently analyze rental, freelance, and sales contracts. More contract types will be added soon."
+      },
+      {
+        "q": "Is my data secure?",
+        "a": "Yes, all your contracts are encrypted and deleted from our system within 24 hours after analysis. No data is manually accessed."
+      },
+      {
+        "q": "Can ClauseGuard replace a lawyer?",
+        "a": "No, ClauseGuard is not a legal advice tool. We still recommend consulting a lawyer for important contracts."
+      },
+      {
+        "q": "What's your refund policy?",
+        "a": "We offer a full refund if you're not satisfied within 7 days of purchasing a one-time or monthly plan."
+      },
+      {
+        "q": "Can I upload larger files?",
+        "a": "We currently have a 30-page limit for PDF files. For larger files, please contact us."
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2025 ClauseGuard. All rights reserved.",
+    "links": {
+      "privacy": "Privacy",
+      "kvkk": "KVKK",
+      "terms": "Terms"
+    }
+  },
+  "upload": {
+    "title": "Upload Contract",
+    "subtitle": "Upload a PDF or DOCX file (max 10 MB)",
+    "dropzone": {
+      "text": "Drag and drop your file here, or click to select",
+      "formats": "Supported formats: PDF, DOCX"
+    },
+    "contractType": {
+      "label": "Contract Type:",
+      "rental": "Rental",
+      "freelance": "Freelance", 
+      "sales": "Sales"
+    },
+    "scanButton": "Scan Now",
+    "analyzing": "Analyzing... 30 sec",
+    "error": "Upload error. Please try again."
+  },
+  "report": {
+    "title": "Contract Analysis",
+    "metrics": {
+      "pages": "Total Pages",
+      "highRisk": "High Risk",
+      "mediumRisk": "Medium Risk",
+      "lowRisk": "Low Risk"
+    },
+    "riskList": "Risk List",
+    "download": {
+      "word": "Download Word",
+      "excel": "Download Excel",
+      "zip": "Download ZIP"
+    }
+  },
+  "assist": {
+    "placeholder": "Ask a question about your contract...",
+    "sendButton": "Send",
+    "startPrompt": "Hello! How can I help you with your contract?"
+  }
+}

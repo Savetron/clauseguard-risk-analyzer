@@ -1,0 +1,194 @@
+
+{
+  "navbar": {
+    "howItWorks": "Nasıl Çalışır",
+    "pricing": "Fiyatlandırma",
+    "faq": "SSS",
+    "login": "Giriş",
+    "uploadContract": "Sözleşme Yükle"
+  },
+  "hero": {
+    "title": "Sözleşme Risk Raporu, Anında.",
+    "subtitle": "30 sayfaya kadar herhangi bir PDF yükleyin ve 60 saniye içinde avukat kalitesinde risk listesi alın.",
+    "getFree": "Ücretsiz Tara",
+    "seePricing": "Fiyatlandırmayı Gör"
+  },
+  "howItWorks": {
+    "title": "Nasıl Çalışır",
+    "steps": {
+      "upload": {
+        "title": "Yükle",
+        "description": "Sözleşmenizi PDF formatında yükleyin (30 sayfaya kadar)."
+      },
+      "analyze": {
+        "title": "AI Analizi",
+        "description": "Yapay zekamız sözleşmenizi tarayarak yasal riskleri ve olası sorunları tespit eder."
+      },
+      "download": {
+        "title": "Raporu İndir",
+        "description": "Tespit edilen tüm riskler ve önerilerle birlikte kapsamlı bir ZIP dosyası alın."
+      }
+    }
+  },
+  "contracts": {
+    "title": "Desteklenen Sözleşmeler",
+    "tabs": {
+      "rental": "Kira",
+      "freelance": "Serbest Çalışan",
+      "sales": "Satış"
+    },
+    "examples": {
+      "rental": [
+        "Kira süresi belirtilmemiş.",
+        "Depozito iade koşulları eksik.",
+        "Bakım sorumluluğu belirsiz."
+      ],
+      "freelance": [
+        "Fikri mülkiyet hakları tanımlanmamış.",
+        "Ödeme takvimi belirsiz.",
+        "Fesih koşulları yetersiz."
+      ],
+      "sales": [
+        "Garanti koşulları belirtilmemiş.",
+        "Teslimat süresi net değil.",
+        "İade politikası eksik."
+      ]
+    }
+  },
+  "testimonials": {
+    "title": "Müşteri Yorumları",
+    "reviews": [
+      {
+        "name": "Ahmet Y.",
+        "role": "Avukat",
+        "comment": "ClauseGuard'ı ofisimde rutin kontroller için kullanıyorum. Büyük zaman tasarrufu sağlıyor ve çoğu riski doğru tespit ediyor."
+      },
+      {
+        "name": "Zeynep K.",
+        "role": "İşletme Sahibi",
+        "comment": "Tedarikçi sözleşmelerimi kontrol ettirmek için harika bir araç. Hiç gözden kaçıracağım önemli bir madde olmadığından emin oluyorum."
+      },
+      {
+        "name": "Mehmet S.",
+        "role": "Emlakçı",
+        "comment": "Kira sözleşmelerinde gizli riskleri bulmamıza yardımcı oluyor. Müşterilerimiz için ekstra bir güvence."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Fiyatlandırma",
+    "currency": "TL",
+    "plans": {
+      "free": {
+        "name": "Ücretsiz",
+        "price": "0",
+        "description": "Basit kontroller için",
+        "features": [
+          "1 sözleşme tarama/gün",
+          "10 sayfa limit",
+          "Temel risk analizi"
+        ],
+        "cta": "Başla"
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "149",
+        "period": "/ay",
+        "description": "Profesyonel kullanım",
+        "features": [
+          "Sınırsız tarama",
+          "30 sayfa limit",
+          "Detaylı risk analizi",
+          "Öncelikli destek"
+        ],
+        "cta": "Başla"
+      },
+      "once": {
+        "name": "Tek Sefer",
+        "price": "79",
+        "description": "Tek seferlik kullanım",
+        "features": [
+          "3 sözleşme tarama",
+          "20 sayfa limit",
+          "Standart risk analizi",
+          "7 gün geçerli"
+        ],
+        "cta": "Başla"
+      }
+    }
+  },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "questions": [
+      {
+        "q": "ClauseGuard nasıl çalışır?",
+        "a": "Yapay zeka algoritmalarımız, yüklediğiniz sözleşme belgelerini analiz eder ve potansiyel riskleri tespit eder. Sistem, binlerce sözleşme ve yasal dokümanda eğitilmiştir."
+      },
+      {
+        "q": "Hangi tür sözleşmeleri analiz edebilirsiniz?",
+        "a": "Şu anda kira, serbest çalışan ve satış sözleşmelerini analiz edebiliyoruz. Yakında daha fazla sözleşme türü eklenecektir."
+      },
+      {
+        "q": "Verilerim güvende mi?",
+        "a": "Evet, tüm sözleşmeleriniz şifrelenir ve analizden sonra 24 saat içinde sistemden silinir. Hiçbir veriye manuel olarak erişilmez."
+      },
+      {
+        "q": "ClauseGuard bir avukatın yerini alabilir mi?",
+        "a": "Hayır, ClauseGuard bir yasal tavsiye aracı değildir. Önemli sözleşmeler için hala bir avukata danışmanızı öneririz."
+      },
+      {
+        "q": "İadeler hakkında politikanız nedir?",
+        "a": "Tek seferlik veya aylık planı satın aldıktan sonra 7 gün içinde memnun kalmazsanız, tam iade sunuyoruz."
+      },
+      {
+        "q": "Daha büyük dosyaları yükleyebilir miyim?",
+        "a": "Şu anda PDF dosyaları için 30 sayfa sınırımız var. Daha büyük dosyalar için lütfen bizimle iletişime geçin."
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2025 ClauseGuard. Tüm hakları saklıdır.",
+    "links": {
+      "privacy": "Gizlilik",
+      "kvkk": "KVKK",
+      "terms": "Şartlar"
+    }
+  },
+  "upload": {
+    "title": "Sözleşme Yükle",
+    "subtitle": "PDF veya DOCX dosyası yükleyin (maks. 10 MB)",
+    "dropzone": {
+      "text": "Dosyayı buraya sürükleyin veya seçmek için tıklayın",
+      "formats": "Desteklenen formatlar: PDF, DOCX"
+    },
+    "contractType": {
+      "label": "Sözleşme Türü:",
+      "rental": "Kira",
+      "freelance": "Serbest Çalışan", 
+      "sales": "Satış"
+    },
+    "scanButton": "Şimdi Tara",
+    "analyzing": "Analiz ediliyor... 30 sn",
+    "error": "Yükleme hatası. Lütfen tekrar deneyin."
+  },
+  "report": {
+    "title": "Sözleşme Analizi",
+    "metrics": {
+      "pages": "Toplam Sayfa",
+      "highRisk": "Yüksek Risk",
+      "mediumRisk": "Orta Risk",
+      "lowRisk": "Düşük Risk"
+    },
+    "riskList": "Risk Listesi",
+    "download": {
+      "word": "Word İndir",
+      "excel": "Excel İndir",
+      "zip": "ZIP İndir"
+    }
+  },
+  "assist": {
+    "placeholder": "Sözleşmenizle ilgili bir soru sorun...",
+    "sendButton": "Gönder",
+    "startPrompt": "Merhaba! Size sözleşmenizle ilgili nasıl yardımcı olabilirim?"
+  }
+}
