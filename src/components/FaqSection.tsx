@@ -11,7 +11,12 @@ import {
 const FaqSection = () => {
   const { t } = useI18n();
   
-  const faqItems = t('faq.questions');
+  // Helper function to ensure we're working with arrays
+  const ensureArray = (value: any[]): any[] => {
+    return Array.isArray(value) ? value : [];
+  };
+  
+  const faqItems = ensureArray(t('faq.questions'));
 
   return (
     <div id="faq" className="container mx-auto px-6 py-24 lg:py-32">

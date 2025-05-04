@@ -13,7 +13,12 @@ import {
 const TestimonialsSection = () => {
   const { t } = useI18n();
   
-  const testimonials = t('testimonials.reviews');
+  // Helper function to ensure we're working with arrays
+  const ensureArray = (value: any[]): any[] => {
+    return Array.isArray(value) ? value : [];
+  };
+  
+  const testimonials = ensureArray(t('testimonials.reviews'));
 
   return (
     <div className="container mx-auto px-6 py-24 lg:py-32">

@@ -115,7 +115,6 @@ const Assist = () => {
               placeholder={t('assist.placeholder')}
               className="flex-grow resize-none"
               rows={1}
-              maxRows={4}
             />
             <Button
               type="submit"

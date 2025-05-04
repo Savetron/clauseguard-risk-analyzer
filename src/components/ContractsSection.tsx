@@ -6,6 +6,11 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 const ContractsSection = () => {
   const { t } = useI18n();
 
+  // Helper function to ensure we're working with arrays
+  const ensureArray = (value: string | string[]): string[] => {
+    return Array.isArray(value) ? value : [value];
+  };
+
   return (
     <div className="container mx-auto px-6 py-24 lg:py-32 bg-gray-50">
       <h2 className="text-3xl font-bold text-center mb-12">{t('contracts.title')}</h2>
@@ -19,7 +24,7 @@ const ContractsSection = () => {
         
         <TabsContent value="rental" className="bg-white p-6 rounded-lg shadow-sm">
           <ul className="list-disc pl-5 space-y-2">
-            {t('contracts.examples.rental').map((item, index) => (
+            {ensureArray(t('contracts.examples.rental')).map((item, index) => (
               <li key={index} className="text-gray-700">{item}</li>
             ))}
           </ul>
@@ -27,7 +32,7 @@ const ContractsSection = () => {
         
         <TabsContent value="freelance" className="bg-white p-6 rounded-lg shadow-sm">
           <ul className="list-disc pl-5 space-y-2">
-            {t('contracts.examples.freelance').map((item, index) => (
+            {ensureArray(t('contracts.examples.freelance')).map((item, index) => (
               <li key={index} className="text-gray-700">{item}</li>
             ))}
           </ul>
@@ -35,7 +40,7 @@ const ContractsSection = () => {
         
         <TabsContent value="sales" className="bg-white p-6 rounded-lg shadow-sm">
           <ul className="list-disc pl-5 space-y-2">
-            {t('contracts.examples.sales').map((item, index) => (
+            {ensureArray(t('contracts.examples.sales')).map((item, index) => (
               <li key={index} className="text-gray-700">{item}</li>
             ))}
           </ul>

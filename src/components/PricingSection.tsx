@@ -11,12 +11,17 @@ const PricingSection = () => {
   
   const currency = isUSD ? 'USD' : 'TL';
   
+  // Helper function to ensure we're working with arrays
+  const ensureArray = (value: string | string[]): string[] => {
+    return Array.isArray(value) ? value : [value];
+  };
+  
   const pricingPlans = [
     {
       name: t('pricing.plans.free.name'),
       price: '0',
       description: t('pricing.plans.free.description'),
-      features: t('pricing.plans.free.features'),
+      features: ensureArray(t('pricing.plans.free.features')),
       cta: t('pricing.plans.free.cta'),
     },
     {
@@ -24,7 +29,7 @@ const PricingSection = () => {
       price: isUSD ? '19.99' : '149',
       period: t('pricing.plans.pro.period'),
       description: t('pricing.plans.pro.description'),
-      features: t('pricing.plans.pro.features'),
+      features: ensureArray(t('pricing.plans.pro.features')),
       cta: t('pricing.plans.pro.cta'),
       highlighted: true,
     },
@@ -32,7 +37,7 @@ const PricingSection = () => {
       name: t('pricing.plans.once.name'),
       price: isUSD ? '9.99' : '79',
       description: t('pricing.plans.once.description'),
-      features: t('pricing.plans.once.features'),
+      features: ensureArray(t('pricing.plans.once.features')),
       cta: t('pricing.plans.once.cta'),
     },
   ];
